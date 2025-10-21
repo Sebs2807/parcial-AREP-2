@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
 @CrossOrigin("*")
@@ -18,6 +19,7 @@ import java.net.URL;
 public class RedirectController {
 
     private static final String USER_AGENT = "Mozilla/5.0";
+    private final AtomicLong counter = new AtomicLong();
 
     @GetMapping("/proxy")
     public String handleRequest(@RequestParam String path) {
