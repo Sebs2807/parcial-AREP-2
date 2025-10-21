@@ -35,7 +35,15 @@ public class RedirectController {
         String targetUrl = "";
 
         if (path.startsWith("/collatzsequence")) {
-            targetUrl = "http://localhost:8081/collatzsequence?value=" + path.split("=")[1];
+            if(counter.get() % 2 == 0){
+                targetUrl = "http://35.175.176.16:8081/collatzsequence?value=" + path.split("=")[1];
+                counter.incrementAndGet();
+                System.out.println("Entro al primer servidor");
+            }else{
+                targetUrl = "http://23.20.118.119:8082/collatzsequence?value=" + path.split("=")[1];
+                counter.incrementAndGet();
+                System.out.println("Entro al segundo servidor");
+            }
         } 
         URL url = new URL(targetUrl);
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
