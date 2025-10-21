@@ -41,6 +41,9 @@ Para esto se usó una variable atómica que actúa como comtador, se uso atómic
 ![alt text](images/image-1.png)
 - Prueba de ejecución correcta del ejercicio de collatz
 ![alt text](images/image.png)
+
+- Intancias creadas y en ejecución
+![alt text](images/image-10.png)
 - Ejecución en las instancias
 ![alt text](images/image-4.png)
 ![alt text](images/image-5.png)
@@ -48,3 +51,8 @@ Para esto se usó una variable atómica que actúa como comtador, se uso atómic
 
 - Prueba de ejecución de las secuencias de collatz en la instancia del proxy EC2
 ![alt text](images/image-8.png)
+
+# Video
+[El video también se encuentra subido al repositorio en la carpeta images](https://drive.google.com/file/d/105_Fi4kxhW4LzPxiRi_9-0bEpYgGwA38/view?usp=sharing)
+
+https://drive.google.com/file/d/105_Fi4kxhW4LzPxiRi_9-0bEpYgGwA38/view?usp=sharing
