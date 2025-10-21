@@ -23,7 +23,7 @@ respectivamente.
 Una vez tengamos instalados los paquetes debemos clonar el repositorio de git:
 
 ```bash
-https://github.com/Sebs2807/parcial-AREP-2.gitgit clone https://github.com/Sebs2807/parcial-AREP-2.git
+https://github.com/Sebs2807/parcial-AREP-2.git
 ```
 
 Nos dirigimos a la carpeta que vaya a ejecutar esa instancia, en el caso del proxy hacemos `cd proxy/` y en el caso de las instancias para math services hacemos `cd collatz/`, una vez estemos dentro de la carpeta generaremos el jar para ejecutar, esto se hace usando el comando `mvn clean package`, veremos que se generó un jar dentro de la carpeta target, entonces haremos el comando `java -jar target/[ejecutable]` y ya quedará corriendo, por último para verificar que todo está bien vamos a la ip que nos haya dado la instancia del proxy y pondremos el puerto en el que se esté ejecutando, deberíamos ver el formulario como a continuación.
