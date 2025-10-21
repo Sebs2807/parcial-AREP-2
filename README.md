@@ -30,6 +30,7 @@ Nos dirigimos a la carpeta que vaya a ejecutar esa instancia, en el caso del pro
 
 ![alt text](images/image-9.png)
 
+Si se quiere ejecutar localmente basta con ejecutar las clases principales de tanto el proxy como del collatz
 
 # Pruebas
 - Código para redirección mediante el proxy usando el algoritmo round-robin a las 2 instancias EC2
@@ -52,6 +53,10 @@ Para esto se usó una variable atómica que actúa como comtador, se uso atómic
 - Prueba de ejecución de las secuencias de collatz en la instancia del proxy EC2
 ![alt text](images/image-8.png)
 
+- Pruebas con números diferentes
+![alt text](images/image-11.png)
+![alt text](images/image-12.png)
+![alt text](images/image-13.png)
 # Video
 [El video también se encuentra subido al repositorio en la carpeta images](https://drive.google.com/file/d/105_Fi4kxhW4LzPxiRi_9-0bEpYgGwA38/view?usp=sharing)
 
